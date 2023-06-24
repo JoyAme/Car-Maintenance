@@ -1,0 +1,726 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* overflow:auto; */
+}
+body{
+    background-color: white;
+}
+.togo-fix{
+    display:flex;
+    justify-content: space-around;
+    padding: 25px;
+    align-items: center;
+    /* grid-template-rows: 1; */
+}
+.nav{
+    display:flex;
+  
+    align-items: center;
+  }
+  .active{
+    background-color: rgb(88, 90, 90);
+  }
+  .nav ul{
+      display: flex;
+      align-items: center;
+  }
+  ul li{
+     margin-left: 30px;
+      list-style: none;
+      padding: 8px;
+      border-radius: 5px;
+  }
+  ul li:hover{
+    background-color: rgb(88, 90, 90);
+}
+  a{
+      text-decoration: none;
+      color: #1E1B1B;
+  }
+ a:hover{
+    color:white
+ }
+  .close{
+      display:none;
+  }
+  .span-2{
+      margin-left:90px;
+      display: none;
+  }
+  .nav-item{
+      display: flex;
+      /* padding: 30px; */
+      align-items: center;
+  }
+  .line{
+      width:35px;
+      border-radius: 20px;
+      height:3px;
+      margin-top: 7px;
+      background-color: black;
+  }
+  .line-1{
+      background-color: rgb(147, 145, 145, 1);
+      height: 24px;
+      width:1px;
+      align-items: center;
+      margin-left:15px;
+  }
+  .number{
+      margin-top: 5px;
+  }
+  .Road-1{
+      display:flex;
+      margin-left: 5px;
+      align-items: center;
+  }
+
+.get-vehicle1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.mechanic{
+    width:70%;
+}
+.booking{
+    margin-top: 20px;
+    font-size: 10px;
+ padding:10px;
+  cursor: pointer;
+    background-color: rgb(255, 100, 51, 1);
+    border-radius: 7px;
+    border-style: none;
+    color: white;
+    margin-bottom: 40px;
+}
+.booking:hover{
+    background-color: #1E1B1B;
+    color: white;
+}
+.get-vehicle{
+    font-size:45px;
+    font-family: 'Manrope', sans-serif;
+    width:450px;
+}
+.fixing{
+    margin-top: 20px;
+    display:flex;
+    gap:7px;
+}
+.openh{
+    color: rgb(185, 177, 177);
+    font-size: 10px;
+}
+.plan{
+    font-size: 11px;
+    margin-top: 5px;
+}
+.icony{
+    width:18px;
+    object-fit: contain;
+}
+.servicey{
+    display:flex;
+    background-color: rgb(248, 242, 242);
+    padding: 16px;
+    height:75px;
+    width:35%;
+    border-radius: 50px;
+    border: 10px solid  rgba(225, 225, 225, 0.518) ;
+    align-items: center;
+   position: relative;
+   margin-bottom: -8rem;
+   margin-left: -25px;
+   
+}
+#hour{
+    margin-left: 3px;
+    background-color: rgba(92, 186, 153, 1);;
+    padding:7px;
+    /* height: 45px;
+    width:50px; */
+    align-items: center;
+    object-fit: contain;
+    border-radius: 999%;
+}
+span{
+    font-size:12px;
+}
+.rating{
+    font-size: 10px;
+}
+.stars-combo{
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 242, 242);
+    padding: 16px;
+    height:75px;
+    width:35%;
+    border-radius: 50px;
+    border: 10px solid  rgba(225, 225, 225, 0.518) ;
+    align-items: center;
+   position: relative;
+   right:-15rem;
+   margin-top: -7rem;
+}
+.serious-care{
+    background-color: #E2E6E9;
+    display: flex;
+    width:100%;
+    margin-top: 30px;
+   justify-content: center;
+}
+input{
+    width:445px;
+    padding: 13px;
+    margin-top: 3px;
+    background:rgb(251, 250, 250);
+    outline: none;
+    border-style: none;
+}
+.convenient{
+    display:flex;
+  margin-top: 20px;
+}
+.Jobs{
+    font-size: 12px;
+    color: grey;
+    margin-top: 8px;
+     line-height: 20px;
+  }
+  .imgsrc{
+    margin-right: 5px;
+    width:24px;
+    border-radius: 999px;
+    padding: 2px;
+    background-color: rgb(112, 115, 115);
+  }
+  .arrow{
+        display: flex;
+                margin-left: 40px;
+                margin-top: 18px;
+                align-items: center;
+                margin-bottom: 80px;
+            }
+            .aboutus{
+                margin-right:10px;
+              
+            } 
+            .serious-care1{
+                font-size: 40px;
+                width:438px;
+                margin-top: 100px;
+                /* line-height: 47px; */
+            }
+            /* fourth */
+            .clear-process{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                gap:10%;
+                margin-bottom: 30px;
+            }
+            .process11{
+                width:400px;
+                font-size: 16px;
+                margin-top: 10px;
+                color: grey;
+            }
+            
+            .numbering{
+                width: 46px;
+                background-color:rgb(141, 36, 170);
+                border-radius: 999%;
+                padding: 9px;
+                color: white;
+                margin-right: 8px;
+            }
+            .convenienty-1{
+                display:flex;
+              margin-top: 20px;
+              gap:10px;
+            }
+            .The-process{
+                font-size: 35px;
+                width: 300px;
+                /* margin-top: 120px; */
+                /* margin-left: 12rem; */
+              }
+              .Jobs1{
+                margin-top: 10px;
+                color:grey;
+              }
+
+              
+              .process11{
+                  width:300px;
+                  font-size: 12px;
+                  margin-top: 10px;
+                  color: grey;
+              }
+              .line3{
+                display:block;
+                height:30px;
+                margin-left: 20px;
+                margin-top:5px;
+                padding:3px;
+              }
+
+              /* fifth */
+              .row1{
+                display:grid;
+                background-color: #E2E6E9;
+              
+                grid-template-columns: repeat(4,220px);
+                justify-content: center;
+                padding: 20px;
+              }
+              .boxex{
+                width:210px;
+                height: 160px;
+                background-color:rgb(249, 251, 252);
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                margin-left: 9px;
+                margin-top: 9px;
+                transition: all 1s;
+            }
+            .boxex:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+            .sixth-1:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+            .strikey{
+                width:36px;
+                object-fit: contain;
+                margin-left:86px;
+                margin-bottom: 10px;
+            }
+            .stri11{
+                width: 20px;
+                margin-left:86px;
+                margin-bottom: 10px;
+                object-fit: contain;
+            }
+            #strikey21{
+                background-color: rgba(255,100,51,1);
+            }
+            .arrow22{
+                display: flex; 
+                margin-top: 18px;
+                align-items: center;
+                margin-bottom: 80px;
+                position: relative;
+                 right:-44rem;
+                 bottom:0;
+            }
+            .Cta{
+                background-size: contain;
+                width:100%;
+            }
+            .Professional{
+                background-color: aliceblue;
+                display:flex;
+              justify-content: space-evenly;
+              padding:20px;
+            }
+            .experienec-1{
+                color:#661CE7;
+                font-size: 48px;
+            }
+            .experienec{
+               margin-left: 8px;
+               font-size: 14px;
+               color: grey;
+            }
+            .Professional-2{
+                display:grid;              
+                grid-template-columns: repeat(5,200px);
+                justify-content: center;
+                padding: 20px;
+                row-gap: 30px;
+              }
+              .experienecC{
+                color: rgb(84, 84, 84);
+            }
+            .brands1{
+                text-align: center;
+                margin-top: 60px;
+            }
+            .vectors{
+             object-fit: contain;
+             margin-right: 7px;
+               width: 19px;
+            }
+            .thing{
+                text-align: center;
+                padding: 40px;
+            }
+            .sixth{
+                background-color: aliceblue;
+            }
+            .manviii{
+                width:30px;
+                margin-right:8px;
+            }
+            .sixth-11{
+                display:grid;              
+                grid-template-columns: repeat(2,320px);
+                justify-content: center;
+                padding: 20px;
+              column-gap: 20px;
+              }
+              .thing{
+                margin-top: 40px;
+              }
+             
+            #Testimonies{
+                background-color: #fcf9f9;
+                margin-left: 30px;
+                padding: 25px;
+                 width:300px;
+               
+                transition: all 1s;
+            }
+
+
+
+
+            .Frequently{
+   
+                display: flex;
+                justify-content: center;
+                /* text-align: center; */
+                background-color:#E2E6E9;
+               padding: 50px;
+            }
+            .Frequently h1{
+                text-align: center;
+                margin: 20px;
+            }
+            .text-finsweet{
+                width:80%;
+            }
+            .Car-repair{
+                display: flex;
+                justify-content: center;
+                background-color: #FFFFFF;
+                margin-bottom:6px ;
+                padding:12px;
+                height: 50px;
+                width:700px;
+                /* position: relative;
+                left:23rem; */
+                justify-content: space-between;
+            }
+            .cars-repairr{
+                background-color: #FFFFFF;
+                margin-bottom:6px;
+               /* position: relative; */
+               align-items: center;
+               /* left:23rem; */
+                width:700px;
+                padding:12px;
+                height: 100px;
+            }
+            .Car-repair1{
+                display: flex;
+                justify-content: space-between;
+            }
+            .btn{
+               width:30px;
+               height:25px;
+               border-style: none;
+               background-color:rgb(255, 100, 51, 1) ;
+               color: white;
+            }
+            .F-questions{
+                padding: 40px;
+                /* background-color: #FFFFFF; */
+                /* margin-bottom:50px ; */
+            }
+            .straight-up{
+                display: flex;
+                align-items: center;
+                justify-content:center ;
+               
+               
+            }
+            .straight-line{
+                background-color: black;
+                width:20px;
+                height:4px;
+                margin-left: 5px;
+                /* text-align: center; */
+            }
+            .straight-up-1{
+                display: flex;
+                /* margin-left: 100px; */
+                
+            }
+            .the-arrows1{
+                display: flex;
+            }
+            .arrowi{
+                object-fit: contain;
+            }
+
+            .get-in-touch{
+                background-color:#1E1B1B ;
+                color: white;
+               /* height:15rem; */
+            }
+            .with-us{
+                display:flex;
+                justify-content: space-evenly;
+               position: relative;
+               top:90px;
+            }
+            .instagram{
+                width:15px;
+                object-fit: contain;
+            }
+            .svgess{
+                margin-top: 30px;
+                align-items: center;
+            }
+            .svg-1{
+                width:15px;
+                margin-left: 9px;
+            }
+            .contacts{
+            margin-bottom: 30px;
+            }
+            .weekdays{
+                margin-top: 11px;
+                margin-bottom:0px;
+            }
+            .almost-last{
+                margin-bottom: 8rem;
+            }
+            .class-6{
+                color:#afacac;
+                
+            }
+            .informations{
+                font-size:40px;
+            }
+            footer{
+                display:flex;
+                justify-content: center;
+                background-color: #282626;
+                color: white;
+                height:7rem;
+                align-items: center;
+            }
+            .navv,
+            .footer-home{
+                display:flex; 
+                color: white;
+             }
+                
+             .footer-li{
+                 margin-top: 10px;
+                position: relative;   
+               left:0;
+             color: white;
+                }
+                .quoter{
+                    background-color: #ded7d7;
+                    position: relative;
+                   border-radius: 8px;
+                    top: -15rem;
+                    /* left:-10rem; */
+                    display:none;
+                    width:70%;
+                }
+                .combine{
+                    padding:10px;
+                }
+
+   
+        @media screen and (max-width: 480px){
+            .servicey{
+                display: none;
+            }
+
+            .stars-combo{
+                display: none;
+            }
+            .get-vehicle{
+                font-size:20px;
+                font-family: 'Manrope', sans-serif;
+                width:200px;
+
+            }
+            .get-vehicle1{
+                margin: 30px;
+            }
+            .fixing{
+                display:flex;
+            }
+            .icony{
+                width:16px;
+            }
+            .serious-care{
+                display: block;
+            }
+            
+            .convenient,
+            .serious-care1{
+                margin-left: 30px;
+            }
+          
+            input{
+                width:380px;
+              margin-top: 10px;
+              margin-left: 6px;
+            }
+            .booking{
+                margin-left: 8pxs;
+            }
+            .experienec-1{
+                font-size: 28px;
+            }
+            .experienec{
+                font-size: 12px;
+                margin-right: 20px;
+            }
+            .clear-process{
+                display:block;
+            }
+            .row1{
+                  grid-template-columns: repeat(2,220px);
+            }
+            .boxex{
+                width:200px;
+            }
+            .arrow22{
+                position: relative;
+                 right:-16rem;
+                 bottom:0;
+            }
+            .Professional-2{
+                display:grid;              
+                grid-template-columns: repeat(2,100px);
+                row-gap: 40px;
+              }
+            
+              .sixth-11{
+                display: block;
+                row-gap: 30px;
+              }
+
+              .Car-repair{ 
+                height: 50px;
+                width:400px;
+                position: relative;
+                left:0rem;   
+            }
+              .cars-repairr{ 
+                position: relative;
+                align-items: center;
+                /* left:0rem; */
+                 width:400px;  
+             }
+             .quoter{
+                background-color: #ded7d7;
+               margin-left: 20px;
+               padding: 6px;
+              color: rgb(96, 96, 96);
+                width:70%;
+                display:none;
+            }
+        }
+
+
+
+            @media screen and (max-width: 768px){
+                .nav ul{
+                    display:block;
+                    /* padding: 10px; */
+                   
+                }
+                /* .call-1{
+                    display: none;
+                } */
+                li{
+                   margin-top: 29px;
+                }
+                .nav-item{
+                    position:fixed;
+                    /* padding: 10px; */
+                    gap:20px;
+                    flex-direction: column;
+                    min-width: 200px;
+                    top:0;
+                    right:-100%;
+                    background-color: rgb(33, 34, 34);
+                    color: white;
+                    height: 100vh;
+                    align-items: flex-start;
+                    justify-content:start;
+                    padding-top: 4rem;
+                    z-index: 1;
+                    transition:2s;
+                }
+               
+                .nav-item.active2{
+                    right:0;
+                    transition:0.9s;
+                }
+                .nav{
+                    display: block;   
+                    
+                       
+                }
+                .togo-fix{
+                    align-items: flex-start;
+                }
+                .close{
+                    display: block;
+                   position: absolute;
+                   top:0;
+                   left:0;
+                   margin: 20px;
+                }
+                a{
+                    color: white;
+                    gap:40px;
+                }
+                ul{
+                    display: block;
+                   
+                }
+                .span-2{
+                    margin-left:50%;
+                    display:block;
+                    cursor: pointer;
+                }
+                .line-1{
+                    display: none;
+                }
+                .footer{
+                    height: 100%;
+                    justify-content: space-around;
+                    
+                }
+                .footer-home{
+                    margin-top: 40px;
+                 
+                    display: block;
+                }
+                .footer-li{
+                    
+                    padding: 10px;
+                }
+            } 

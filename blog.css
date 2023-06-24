@@ -1,0 +1,297 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* overflow:auto; */
+}
+body{
+    background-color: white;
+}
+
+
+.togo-fix{
+    display:flex;
+    justify-content: space-around;
+    padding: 25px;
+    align-items: center;
+    /* grid-template-rows: 1; */
+}
+
+.nav{
+  display:flex;
+
+  align-items: center;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+   margin-left: 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #1E1B1B;
+}
+.close{
+    display:none;
+}
+.span-2{
+    margin-left:90px;
+    display: none;
+}
+.nav-item{
+    display: flex;
+    /* padding: 30px; */
+    align-items: center;
+}
+.line{
+    width:35px;
+    border-radius: 20px;
+    height:3px;
+    margin-top: 7px;
+    background-color: black;
+}
+.line-1{
+    background-color: rgb(147, 145, 145, 1);
+    height: 24px;
+    width:1px;
+    align-items: center;
+    margin-left:15px;
+}
+.number{
+    margin-top: 5px;
+}
+.Road-1{
+    display:flex;
+    margin-left: 5px;
+    align-items: center;
+}
+/* ending of header */
+
+.get-in-touch{
+    background-color:#1E1B1B ;
+    color: white;
+   /* height:15rem; */
+}
+.with-us{
+    display:flex;
+    justify-content: space-evenly;
+   position: relative;
+   top:90px;
+}
+.instagram{
+    width:15px;
+    object-fit: contain;
+}
+.svgess{
+    margin-top: 30px;
+    align-items: center;
+}
+.svg-1{
+    width:15px;
+    margin-left: 9px;
+}
+.contacts{
+margin-bottom: 30px;
+}
+.weekdays{
+    margin-top: 11px;
+    margin-bottom:0px;
+}
+.almost-last{
+    margin-bottom: 8rem;
+}
+.class-6{
+    color:#afacac;
+    
+}
+.informations{
+    font-size:40px;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    background-color: #282626;
+    color: white;
+    height:7rem;
+    align-items: center;
+}
+.navv,
+.footer-home{
+    display:flex; 
+    color: white;
+ }
+    
+ .footer-li{
+     margin-top: 10px;
+    position: relative;   
+   left:0;
+ color: white;
+    }
+    .active{
+        background-color:rgb(144, 145, 145);
+       padding: 10px;
+        align-items: center;
+        border-radius: 10px; 
+        /* width:40px; */
+    }
+
+
+
+    /* @media screen and (max-width: 480px){
+        .header,
+         ul,li,
+        .all-list-call{
+                display:block; 
+                justify-content: flex-start;
+            }
+            li{
+                margin-top: 20px;
+                position: relative;   
+                left:0;
+            }
+            
+        .Road-1,
+        .line-1{
+            display:none;
+           }
+        } */
+        /* @media screen and (max-width: 480px){
+            .nav ul{
+                display:block;
+                
+            }
+            .nav-item{
+                position:fixed;
+                
+                flex-direction: column;
+                min-width: 200px;
+                top:0;
+                right:-100%;
+                background-color: rgb(33, 34, 34);
+                color: white;
+                height: 100vh;
+                align-items: flex-start;
+                justify-content: start;
+                padding-top: 4rem;
+                z-index: 1;
+            }
+           
+           
+            .nav{
+                display: block;   
+               
+            }
+            .togo-fix{
+                align-items: flex-start;
+            }
+            .close{
+                display: block;
+            }
+            a{
+                color: white;
+            }
+            ul{
+                display: block;
+                
+            }
+            .span-2{
+                display:block;
+                cursor: pointer;
+            }
+            .line-1{
+                display: none;
+            }
+           
+            
+            .footer-home{
+              
+                display: block;
+            }
+            }  */
+            @media screen and (max-width: 768px){
+                .nav ul{
+                    display:block;
+                    /* padding: 10px; */
+                   
+                }
+                /* .call-1{
+                    display: none;
+                } */
+                li{
+                   margin-top: 29px;
+                }
+                .nav-item{
+                    position:fixed;
+                    /* padding: 10px; */
+                    gap:20px;
+                    flex-direction: column;
+                    min-width: 200px;
+                    top:0;
+                    right:-100%;
+                    background-color: rgb(33, 34, 34);
+                    color: white;
+                    height: 100vh;
+                    align-items: flex-start;
+                    justify-content:start;
+                    padding-top: 4rem;
+                    z-index: 1;
+                    transition:2s;
+                }
+               
+                .nav-item.active2{
+                    right:0;
+                    transition:0.9s;
+                }
+                .nav{
+                    display: block;   
+                    
+                       
+                }
+                .togo-fix{
+                    align-items: flex-start;
+                }
+                .close{
+                    display: block;
+                   position: absolute;
+                   top:0;
+                   left:0;
+                   margin: 20px;
+                }
+                a{
+                    color: white;
+                    gap:40px;
+                }
+                ul{
+                    display: block;
+                   
+                }
+                .span-2{
+                    margin-left:50%;
+                    display:block;
+                    cursor: pointer;
+                }
+                .line-1{
+                    display: none;
+                }
+                .footer{
+                    height: 100%;
+                    justify-content: space-around;
+                    
+                }
+                .footer-home{
+                    margin-top: 40px;
+                 
+                    display: block;
+                }
+                .footer-li{
+                    
+                    padding: 10px;
+                }
+            } 
+       
