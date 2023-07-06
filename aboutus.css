@@ -90,6 +90,9 @@ a{
    
     margin-bottom: 60px;
 }
+.sec{
+  text-align: center;
+}
 .carman-1{
     width:30%;
     object-fit: contain;
@@ -419,13 +422,13 @@ footer{
         margin-left: 50px;
       }
       .services-1{
-        width: 50%;
-        margin-right: -7rem;
+        width: 60%;
+        /* margin-right: -7rem; */
       }
       .servicess1{
         font-size: 8px;
-        width:180px;
-        margin-left: -4px;
+        /* width:180px; */
+        /* margin-left: -4px; */
       }
       .button-2{
         width:50%;
@@ -442,11 +445,12 @@ footer{
         font-size: 23px;
     }
     .full{
+      font-size: 25px;
       margin-top: 20px;
       margin-left: 40px;
     }
-    .get-it{
-        /* width:30%; */
+    .Jobs1{
+       font-size: 10px;
     }
   
     .steps{
