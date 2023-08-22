@@ -253,6 +253,7 @@ input{
             .The-process{
                 font-size: 35px;
                 width: 300px;
+                margin-top: 2rem;
                 /* margin-top: 120px; */
                 /* margin-left: 12rem; */
               }
@@ -613,13 +614,17 @@ input{
                 margin-left: 30px;
             }
           .serious-care1{
-            font-size: 25px;
+            font-size: 20px;
           }
             input{
-                width:23rem;
+                width:17rem;
               margin-top: 10px;
               /* margin-left: 6px; */
             }
+            .The-process{
+                font-size: 25px;
+                
+              }
             .booking{
                 margin-left: 8pxs;
             }
