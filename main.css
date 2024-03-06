@@ -852,16 +852,17 @@ line-height: 3rem;
         }
   /* third */
           .serious-care1{
-            font-size: 40px;
-            width: 340px;
+            font-size: 35px;
+            width: 380px;
           }
             input{
                 width:23rem;
               
             }
             .The-process{
-                font-size: 30px;
-                
+                font-size:30px;
+                width:280px;
+                line-height:2rem;
               }
     /* end third */
     /* fourth */
@@ -870,12 +871,19 @@ line-height: 3rem;
   
 }
 .btn-third{
-    padding: 10px 15px;
+    padding: 20px 15px;
+}
+.expertise1{
+    margin-top: 50px;
+}
+.convenienty-1{
+    margin-top: 10px;
 }
 .The-process1 h5{
     font-size: 18px;
     width:280px;
 }
+
 .clear-all{
     display: flex;
     flex-direction: column;
@@ -885,9 +893,10 @@ line-height: 3rem;
 }
 .quotess h5{
     font-size: 16px;
-    width:280px;
+    width:390px;
 }
 .numbering{
+    font-size: 18px;
     padding:5px 5px;
 }
 /* end */
