@@ -830,10 +830,12 @@ line-height: 3rem;
         .mechanic{
             width:20rem;
         }
-        .star{
-            width:12px;
+        .rating{
+           display: none;
         }
-
+        input{
+            width:20rem;
+        }
         .icony{
             /* width:px; */
         }
@@ -860,6 +862,9 @@ line-height: 3rem;
             input{
                 width:23rem;
               
+            }
+            .arrow{
+                display: none;
             }
             .The-process{
                 font-size:30px;
@@ -947,6 +952,7 @@ line-height: 3rem;
               }
             .thing{
                 font-size: 30px;
+                width:350px;
             }
               .sixth-11{
                 display: flex;
@@ -961,7 +967,8 @@ line-height: 3rem;
                 font-size: 12px;
               }
               #Testimonies h5{
-                font-size: 16px;
+                font-size: 14px;
+                width:350px;
               }
               .vectors{
                 width: 30px;
