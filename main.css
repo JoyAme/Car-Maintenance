@@ -834,7 +834,7 @@ line-height: 3rem;
            display: none;
         }
         input{
-            width:20rem;
+            width:100%;
         }
         .icony{
             /* width:px; */
@@ -857,7 +857,7 @@ line-height: 3rem;
   /* third */
           .serious-care1{
             font-size: 35px;
-            width: 380px;
+            width: 280px;
           }
             input{
                 width:23rem;
