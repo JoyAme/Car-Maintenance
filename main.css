@@ -223,8 +223,8 @@ span{
     color: white;
 }
 .icony{
-    width:20px;
-    object-fit: cover;
+    width:40px;
+    object-fit: contain;
 }
 .open{
     display: flex;
@@ -793,7 +793,9 @@ line-height: 3rem;
 .FinLogo{
     width:110px;
 }
-
+.icony{
+    width:30px;
+}
     /*  */
  .fixing-job{    
     display: flex;
@@ -833,7 +835,7 @@ line-height: 3rem;
         }
 
         .icony{
-            width:16px;
+            /* width:px; */
         }
         .car-services{
             display: flex;
@@ -903,10 +905,13 @@ line-height: 3rem;
 
 /* fifth */
             .experienec-1{
-                font-size: 28px;
+                font-size: 25px;
+            }
+            .brands1{
+                font-size: 35px;
             }
             .experienec{
-                font-size: 12px;
+                font-size: 10px;
                 margin-right: 20px;
             }
             .clear-process{
@@ -920,9 +925,12 @@ line-height: 3rem;
                 width:140px;
                 text-align: center;
             }
+            .boxex h5{
+                font-size: 16px;
+            }
             .strikey,
             .stri11{
-                margin-left:43px ;
+                margin-left:30px ;
             }
             .arrow22{
                 position: relative;
@@ -938,7 +946,7 @@ line-height: 3rem;
                 row-gap: 40px;
               }
             .thing{
-                font-size: 35px;
+                font-size: 30px;
             }
               .sixth-11{
                 display: flex;
@@ -955,14 +963,20 @@ line-height: 3rem;
               #Testimonies h5{
                 font-size: 16px;
               }
+              .vectors{
+                width: 30px;
+              }
+              .experienecC{
+                font-size: 16px;
+              }
 
 /* last */
               .Car-repair h3{ 
-               font-size: 16px;
+               font-size: 14px;
                text-align: left;
             }
             .btn{
-                padding: 5px 5px;
+                padding: 10px 10px;
             }
               
              .quoter{
