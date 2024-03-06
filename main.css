@@ -76,15 +76,20 @@ body{
       margin-left: 5px;
       align-items: center;
   }
-.Gett{
+/* .Gett{
     display: grid;
     justify-content: center;
+} */
+/* .get-vehicle1{
+  width:100%;
+  margin-top: 150px;
 }
-.get-vehicle1{
+.vehicle-combo{
+    width:80%;
     display:flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    gap:40px;
+
 }
 .mechanic{
     width:70%;
@@ -144,8 +149,7 @@ body{
     margin-left: 3px;
     background-color: rgba(92, 186, 153, 1);;
     padding:7px;
-    /* height: 45px;
-    width:50px; */
+   
     align-items: center;
     object-fit: contain;
     border-radius: 999%;
@@ -169,138 +173,284 @@ span{
    position: relative;
    right:-15rem;
    margin-top: -7rem;
+} */
+
+
+/* second-line */
+.work{
+    width:100%;
+    margin-top: 120px;
 }
+.fixing-job{
+    width:80%;
+    margin: auto;
+    display: flex;
+    gap:60px;
+    align-items: center;
+    justify-content: center;
+}
+.vehicle h1{
+    font-size: 55px;
+    width:490px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.btn-first{
+   padding: 25px 25px; 
+   font-size: 20px;
+   cursor: pointer;
+    background-color: rgb(255, 100, 51, 1);
+    border-radius: 7px;
+    border-style: none;
+    color: white;
+    margin-bottom: 40px;
+}
+.btn-first:hover{
+    background-color: #1E1B1B;
+    color: white;
+}
+.icony{
+    width:20px;
+    object-fit: cover;
+}
+.open{
+    display: flex;
+    gap:15px;
+    margin-top: 120px;
+}
+.open-day h4{
+    font-size: 20px;
+}
+.open-day h6{
+    font-size: 18px;
+}
+.mechanc-man{
+    position: relative;
+}
+.Q-serve{
+    border:10px solid  rgba(225, 225, 225, 0.518);
+    position: absolute;
+    top: 25px;
+    background:white;
+    left:-58px;
+    font-size: 18px;
+    color: black;
+    padding: 25px 25px;
+    border-radius:55px;
+}
+span{
+    background: rgb(27, 128, 27);
+    color:white;
+    padding: 5px 10px;
+    border-radius: 999px;
+}
+.rating{
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    background:white;
+    right:-54px;
+    font-size: 18px;
+    color: black;
+    padding: 15px 25px;
+    border:10px solid  rgba(225, 225, 225, 0.518);
+    border-radius:55px;
+}
+
+/* closing  */
+
+
+
+/* Third */
+
 .serious-care{
     background-color: #E2E6E9;
-    display: flex;
-    /* width:100%; */
-    margin-top: 30px;
-   justify-content: center;
+    width:100%;
+    margin-top: 120px;
+    padding-top: 40px;
+    padding-bottom: 70px;
 }
-.serious{
-    
+.car-services{
+    width:80%;
+    margin: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap:100px;
+}
+/* .convey{
+    margin-top: 40px;
+} */
+.convey h4{
+    font-size: 35px;
+}
+.convey h5{
+    font-size: 20px;
+    width: 250px;
+    margin-top: 10px;
+}
+.serious-care1{
+    font-size: 50px;
+    width:428px;
+   margin-bottom: 50px;
 }
 input{
-    width:28rem;
-    padding: 13px;
-    margin-top: 3px;
+    width:30rem;
+    padding: 25px 13px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
     background:rgb(251, 250, 250);
     outline: none;
     border-style: none;
 }
 .convenient{
     display:flex;
+    align-items: start;
+    gap:15px;
   margin-top: 20px;
 }
-.Jobs{
-    font-size: 12px;
-    color: grey;
-    margin-top: 8px;
-     line-height: 20px;
-  }
+
+.quote{
+   position: relative;
+}
+.arrow{
+    display: flex;
+    position: absolute;
+    right: 0;
+ }
+ ::placeholder{
+    font-size: 18px;
+ }
+ .btn-sec{
+    padding: 20px 40px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 14px;
+    margin-bottom: 15px;
+    background-color:rgb(255, 100, 51, 1) ;
+    color: white;
+    cursor: pointer;
+ }
+ .btn-sec:hover{
+    background-color: #1E1B1B;
+ }
+
   .imgsrc{
-    margin-right: 5px;
-    width:24px;
     border-radius: 999px;
-    padding: 2px;
+    padding: 5px 5px;
     background-color: rgb(112, 115, 115);
   }
-  .arrow{
-        display: flex;
-                margin-left: 40px;
-                margin-top: 18px;
-                align-items: center;
+    
+  /* end third */
+
+
+
+
+ /* fourth */
+ .clear-process{
+width:100%;
+padding: 40px 0px;
+ }
+  .clear-all{
+    width: 80%;
+      margin: auto;
+  display:flex;
+ align-items: start;
+     justify-content: center;
+    gap:10%;
                 margin-bottom: 80px;
+ }
+ .The-process1 h5{
+    font-size: 26px;
+   width:460px;
+ 
+     margin-top: 20px;
+  color: grey;
             }
-            .aboutus{
-                margin-right:10px;
-              
-            } 
-            .serious-care1{
-                font-size: 40px;
-                width:438px;
-                margin-top: 100px;
-                /* line-height: 47px; */
-            }
-            /* fourth */
-            .clear-process{
-                display:flex;
-                align-items: center;
-                justify-content: center;
-                gap:10%;
-                margin-bottom: 80px;
-            }
-            .process11{
-                width:400px;
-                font-size: 16px;
-                margin-top: 10px;
-                color: grey;
-            }
-            
-            .numbering{
-                width: 46px;
-                background-color:rgb(141, 36, 170);
+ .The-process{
+
+ font-size: 40px;
+  width: 340px;
+  }
+  .lane{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+ .numbering{
+         background-color:rgb(141, 36, 170);
                 border-radius: 999%;
-                padding: 9px;
+                padding:20px  20px;
                 color: white;
-                margin-right: 8px;
             }
             .convenienty-1{
                 display:flex;
-              margin-top: 20px;
-              gap:10px;
+             margin-top: 20px;
+              gap:20px;
             }
-            .The-process{
+            .btn-third{
+                    padding: 20px 40px;
+                    border-style: none;
+                    font-size: 18px;
+                    font-weight: 400;
+                    border-radius: 14px;
+                    margin-top: 20px;
+                    background-color:rgb(255, 100, 51, 1) ;
+                    color: white;
+                    cursor: pointer;
+            }
+            .btn-third:hover{
+                background-color: #1E1B1B;
+             }
+             .quotess h2{
                 font-size: 35px;
-                width: 300px;
-                margin-top: 2rem;
-                /* margin-top: 120px; */
-                /* margin-left: 12rem; */
-              }
+             }
               .Jobs1{
                 margin-top: 10px;
                 color:grey;
+                font-size: 25px;
+              }
+ .line3{
+               
+                height:30px;
+              
+              
+                padding:0px 3px;
               }
 
-              
-              .process11{
-                  width:300px;
-                  font-size: 12px;
-                  margin-top: 10px;
-                  color: grey;
-              }
-              .line3{
-                display:block;
-                height:30px;
-                margin-left: 20px;
-                margin-top:5px;
-                padding:3px;
-              }
+/* end */
+
+
 
               /* fifth */
               .roww{
-                display:grid;
+              width:100%;
                 background-color: #E2E6E9;
-                justify-content: center;
+               
               }
               .row1{
                 display:grid;
-                
-              
+                width:80%;
+              margin: auto;
                 grid-template-columns: repeat(4,220px);
-                /* justify-content: center; */
+                justify-content: center;
+                gap:10px;
                 padding: 20px;
               }
               .boxex{
-                width:210px;
-                height: 160px;
+                /* width:210px; */
+                /* height: 160px; */
                 background-color:rgb(249, 251, 252);
                 display: flex;
-                justify-content: center;
+                /* margin: auto; */
+                padding: 30px 20px;
+                /* justify-content: center; */
                 flex-direction: column;
                 text-align: center;
-                margin-left: 9px;
-                margin-top: 9px;
+                /* margin-left: 9px;
+                margin-top: 9px; */
                 transition: all 1s;
             }
             .boxex:hover{
@@ -312,10 +462,11 @@ input{
                 cursor: pointer;
             }
             .strikey{
-               
-                width:36px;
-                object-fit: contain;
-                margin-left:86px;
+              
+               width:40px;
+                /* width:36px;
+                object-fit: contain; */
+                /* margin-left:86px; */
                 margin-bottom: 10px;
             }
             .stri11{
@@ -412,60 +563,47 @@ input{
 
 
 
-
+/* last */
             .Frequently{
-   
-                display: flex;
-                justify-content: center;
+                width:100%;
                 /* text-align: center; */
                 background-color:#E2E6E9;
-               padding: 50px;
+               padding: 60px 0px;
+            }
+            .F-questions{
+                    width:80%;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                  text-align: center;
+                  gap:20px;
             }
             .Frequently h1{
                 text-align: center;
-                margin: 20px;
+                margin: 15px;
             }
             .text-finsweet{
                 width:80%;
             }
             .Car-repair{
                 display: flex;
-                justify-content: center;
                 background-color: #FFFFFF;
-                margin-bottom:6px ;
-                padding:12px;
-                height: 50px;
-                width:700px;
-                /* position: relative;
-                left:23rem; */
+                padding:32px 15px;
+               flex: 0.6;
                 justify-content: space-between;
             }
-            .cars-repairr{
-                background-color: #FFFFFF;
-                margin-bottom:6px;
-               /* position: relative; */
-               align-items: center;
-               /* left:23rem; */
-                width:700px;
-                padding:12px;
-                height: 100px;
-            }
-            .Car-repair1{
-                display: flex;
-                justify-content: space-between;
+       
+            .Car-repair h3{
+                font-size: 25px;
             }
             .btn{
-               width:30px;
-               height:25px;
+                padding: 10px 15px ;
+              font-size: 18px;
                border-style: none;
                background-color:rgb(255, 100, 51, 1) ;
                color: white;
             }
-            .F-questions{
-                padding: 40px;
-                /* background-color: #FFFFFF; */
-                /* margin-bottom:50px ; */
-            }
+     
             .straight-up{
                 display: flex;
                 align-items: center;
@@ -566,68 +704,101 @@ input{
                 }
 
    
-        @media screen and (max-width: 480px){
-            .servicey{
-                display: none;
-            }
+        @media screen and (max-width: 478px){
 
-            .stars-combo{
-                display: none;
-            }
-            .get-vehicle{
-                font-size:40px;
-                font-family: 'Manrope', sans-serif;
-                width:290px;
 
-            }
-            .open{
-                margin-top: 0;
-            }
-            /* .Gett{
-               text-align: center;
-            } */
-            .get-vehicle1{
-               display: grid;
-              justify-content: center;
-            }
-            .mechanic{
-                width:20rem;
-            }
-            .fixing{
-                display:flex;
-            }
-            .icony{
-                width:16px;
-            }
-            .serious-care{
-                display: grid;
+            .fixing-job{
+             
+                display: flex;
+                flex-direction: column;
+                gap:60px;
                 justify-content: center;
+                
             }
-            .quote{
-                text-align: center;
+            .vehicle h1{
+                font-size: 40px;
+                width:420px;
             }
-            .care2{
-                margin-left: 4rem;
+            .btn-first{
+                padding: 10px 10px;
             }
-            .convenient,
-            .serious-care1{
-                margin-left: 30px;
+            .Q-serve{
+                padding: 15px 10px;
+                font-size: 12px;
             }
+        .rating{
+            padding: 10px 5px;
+           
+        }
+        .rate{
+            font-size: 12px;
+        }
+
+        .mechanic{
+            width:20rem;
+        }
+
+        .icony{
+            width:16px;
+        }
+        .car-services{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .quote{
+            text-align: center;
+        }
+
+        .convey h4{
+            font-size: 25px;
+        }
+        .convey h5{
+            font-size: 18px;
+        }
+  /* third */
           .serious-care1{
-            font-size: 20px;
+            font-size: 40px;
+            width: 340px;
           }
             input{
-                width:17rem;
-              margin-top: 10px;
-              /* margin-left: 6px; */
+                width:23rem;
+              
             }
             .The-process{
-                font-size: 25px;
+                font-size: 30px;
                 
               }
-            .booking{
-                margin-left: 8pxs;
-            }
+    /* end third */
+    /* fourth */
+.The-process{
+    font-size: 30px;
+  
+}
+.btn-third{
+    padding: 10px 15px;
+}
+.The-process1 h5{
+    font-size: 18px;
+    width:280px;
+}
+.clear-all{
+    display: flex;
+    flex-direction: column;
+}
+.quotess h2{
+    font-size: 26px;
+}
+.quotess h5{
+    font-size: 16px;
+    width:280px;
+}
+.numbering{
+    padding:5px 5px;
+}
+/* end */
+
+/* fifth */
             .experienec-1{
                 font-size: 28px;
             }
@@ -669,19 +840,15 @@ input{
                 gap:20px;
                 justify-content: center;
               }
-
-              .Car-repair{ 
-                height: 50px;
-                width:400px;
-                position: relative;
-                left:0rem;   
+/* last */
+              .Car-repair h3{ 
+               font-size: 16px;
+               text-align: left;
             }
-              .cars-repairr{ 
-                position: relative;
-                align-items: center;
-                /* left:0rem; */
-                 width:400px;  
-             }
+            .btn{
+                padding: 5px 5px;
+            }
+              
              .quoter{
                 background-color: #ded7d7;
                margin-left: 20px;
@@ -696,7 +863,11 @@ input{
             .with-us{
                 justify-content: center;
             }
-        }
+ }
+
+
+
+
 
 
 
