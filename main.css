@@ -309,7 +309,7 @@ span{
 }
 input{
     border-radius: 9px;
-    width:40rem;
+    width:100%;
     padding: 25px 13px;
     display: flex;
     flex-direction: column;
